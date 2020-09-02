@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\360MoveData\Users\Administrator\Desktop\TRDB-D5M_v.1.2.4_SystemCD\our_project\simulation\modelsim
+vDE2_D5M
+!i10b 1
+!s100 DAN5_9;=Q3P7cRTXCMW7R3
+Ia`HQ1h:o1h>70QBdhkU^R0
+V>5:oC8<IPjbc?UgGbj<GT1
+Z1 dD:\360MoveData\Users\Administrator\Desktop\TRDB-D5M_v.1.2.4_SystemCD\our_project\simulation\modelsim
+w1584070829
+8DE2_D5M.vo
+FDE2_D5M.vo
+L0 31
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1584071003.133000
+!s107 DE2_D5M.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|DE2_D5M.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+n@d@e2_@d5@m

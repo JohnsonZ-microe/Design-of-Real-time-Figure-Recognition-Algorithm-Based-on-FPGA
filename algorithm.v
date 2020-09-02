@@ -1,0 +1,136 @@
+module algorithm(
+	clk,
+	rst_n,                   //输入：复位信号
+	per_clken,               //输入：时钟使能信号
+	aclr,                    //输入：清零信号
+	image,
+	gauss,
+	finaloutcome
+	);
+	
+input clk;
+input rst_n;
+input per_clken;
+input aclr;
+input [9:0] image;
+input [9:0] gauss;
+output [9:0] finaloutcome;
+
+
+wire [9:0] image_data11;
+wire [9:0] image_data12;
+wire [9:0] image_data13;
+wire [9:0] image_data21;
+wire [9:0] image_data22;
+wire [9:0] image_data23;
+wire [9:0] image_data31;
+wire [9:0] image_data32;
+wire [9:0] image_data33;
+
+wire [9:0] gauss_data11;
+wire [9:0] gauss_data12;
+wire [9:0] gauss_data13;
+wire [9:0] gauss_data21;
+wire [9:0] gauss_data22;
+wire [9:0] gauss_data23;
+wire [9:0] gauss_data31;
+wire [9:0] gauss_data32;
+wire [9:0] gauss_data33;
+
+buffer_final bufferr1(
+		.clk(clk),                     //输入：时钟信号
+		.rst_n(rst_n),                   //输入：复位信号
+		.per_clken(per_clken),               //输入：时钟使能信号
+		.image(image),               //输入：数据信号
+		.gauss(gauss),
+		.aclr(1'b0),                          //输入：清零
+		.matrix_clken(),            //输出：99矩阵移位使能信号，延时2clk
+		.image_p11(image_data11),              //输出：图像矩阵13位
+		.image_p12(image_data12),              //输出：图像矩阵12位
+		.image_p13(image_data13),					//输出：图像矩阵11位
+		.image_p21(image_data21),              //输出：图像矩阵23位
+		.image_p22(image_data22),              //输出：图像矩阵22位
+		.image_p23(image_data23),              //输出：图像矩阵21位
+		.image_p31(image_data31),					//输出：图像矩阵33位
+		.image_p32(image_data32),					//输出：图像矩阵32位
+		.image_p33(image_data33), 					//输出：图像矩阵31位
+		.gauss_p11(gauss_data11),              //输出：高斯矩阵13位
+		.gauss_p12(gauss_data12),              //输出：高斯矩阵12位
+		.gauss_p13(gauss_data13),					//输出：高斯矩阵11位
+		.gauss_p21(gauss_data21),              //输出：高斯矩阵23位
+		.gauss_p22(gauss_data22),              //输出：高斯矩阵22位
+		.gauss_p23(gauss_data23),              //输出：高斯矩阵21位
+		.gauss_p31(gauss_data31),					//输出：高斯矩阵33位
+		.gauss_p32(gauss_data32),					//输出：高斯矩阵32位
+		.gauss_p33(gauss_data33) 					//输出：高斯矩阵31位
+    );
+	 
+wire [9:0] final_11;
+wire [9:0] final_12;
+wire [9:0] final_13;
+wire [9:0] final_21;
+wire [9:0] final_22;
+wire [9:0] final_23;
+wire [9:0] final_31;
+wire [9:0] final_32;
+wire [9:0] final_33;
+
+exp_LUT exp_11(
+	.datain(gauss_data11),         //输入：x
+	.image_data(image_data11),     //输入：乘数
+	.dataout(final_11)                       //输出: 2*exp(-x)*乘数
+	);
+	
+exp_LUT exp_12(
+	.datain(gauss_data12),         //输入：x
+	.image_data(image_data12),     //输入：乘数
+	.dataout(final_12)             //输出: 2*exp(-x)*乘数
+	);
+	
+exp_LUT exp_13(
+	.datain(gauss_data13),         //输入：x
+	.image_data(image_data13),     //输入：乘数
+	.dataout(final_13)             //输出: 2*exp(-x)*乘数
+	);
+	
+exp_LUT exp_21(
+	.datain(gauss_data21),         //输入：x
+	.image_data(image_data21),     //输入：乘数
+	.dataout(final_21)             //输出: 2*exp(-x)*乘数
+	);
+	
+exp_LUT exp_22(
+	.datain(gauss_data22),         //输入：x
+	.image_data(image_data22),     //输入：乘数
+	.dataout(final_22)             //输出: 2*exp(-x)*乘数
+	);
+	
+exp_LUT exp_23(
+	.datain(gauss_data23),         //输入：x
+	.image_data(image_data23),     //输入：乘数
+	.dataout(final_23)             //输出: 2*exp(-x)*乘数
+	);
+
+exp_LUT exp_31(
+	.datain(gauss_data31),         //输入：x
+	.image_data(image_data31),     //输入：乘数
+	.dataout(final_31)               //输出: 2*exp(-x)*乘数
+	);
+	
+exp_LUT exp_32(
+	.datain(gauss_data32),         //输入：x
+	.image_data(image_data32),     //输入：乘数
+	.dataout(final_32)             //输出: 2*exp(-x)*乘数
+	);
+	
+exp_LUT exp_33(
+	.datain(gauss_data33),         //输入：x
+	.image_data(image_data33),     //输入：乘数
+	.dataout(final_33)             //输出: 2*exp(-x)*乘数
+	);
+	
+wire [20:0] finalsum;
+assign finalsum = (final_11 + final_12 + final_13 + final_21 + final_22 + final_23 + final_31 + final_32 + final_33);
+assign finaloutcome = (finalsum > 10'b1111111111)? 10'b1111111111: finalsum[9:0];
+
+endmodule

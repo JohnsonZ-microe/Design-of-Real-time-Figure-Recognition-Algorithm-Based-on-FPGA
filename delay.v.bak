@@ -1,0 +1,27 @@
+//本模块用于对信号延迟2*640 + 6clk 个时序
+
+module delay(
+	clk,                     //输入: 时钟信号
+	rst_n,                   //输入：复位信号
+	per_clken,
+	aclr,
+	gauss_A_in,              //输入：gauss_A信号
+	gauss_A_out
+	);
+	
+input clk;
+input rst_n;
+input [19:0] gauss_A_in;
+output [19:0] gauss_A_out;
+
+linebuffer_self linebuffer0(
+	.aclr(aclr),             //同步清零信号
+	.clken(per_clken),           //时钟使能信号
+	.clock(clk),           //时钟信号
+	.shiftin(gauss_A_in),         //数据输入
+	.shiftout(),
+	.taps0x(row2_data),          //第一行缓存
+	.taps1x(row1_data)           //第二行缓存
+	);
+
+	

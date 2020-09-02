@@ -1,0 +1,58 @@
+# Reading D:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do delay_test_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/delay.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module delay
+# 
+# Top level modules:
+# 	delay
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/line_buffer_test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module line_buffer_test
+# 
+# Top level modules:
+# 	line_buffer_test
+# 
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/delay_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module delay_tb
+# 
+# Top level modules:
+# 	delay_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  delay_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps delay_tb 
+# Loading work.delay_tb
+# Loading work.delay
+# Loading work.line_buffer_test
+# Loading altera_mf_ver.altshift_taps
+# ** Warning: (vsim-3016) D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/line_buffer_test.v(78): Port type is incompatible with connection (port 'aclr').
+# 
+#         Region: /delay_tb/delay_t/linebuffer0/ALTSHIFT_TAPS_component
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module delay_tb at D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/delay_tb.v line 43
+# Simulation Breakpoint: Break in Module delay_tb at D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/delay_tb.v line 43
+# MACRO ./delay_test_run_msim_rtl_verilog.do PAUSED at line 18
+add wave sim:/delay_tb/delay_t/*
+restart -f
+# ** Warning: (vsim-3016) D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/line_buffer_test.v(78): Port type is incompatible with connection (port 'aclr').
+# 
+#         Region: /delay_tb/delay_t/linebuffer0/ALTSHIFT_TAPS_component
+run -all
+# Break in Module delay_tb at D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/delay_tb.v line 43

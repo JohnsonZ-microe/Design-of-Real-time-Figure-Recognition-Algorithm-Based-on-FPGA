@@ -1,0 +1,2316 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+
+// 
+// Device: Altera EP2C35F672C6 Package FBGA672
+// 
+
+// 
+// This SDF file should be used for ModelSim-Altera (Verilog) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "delay")
+  (DATE "03/05/2020 16:18:07")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus II 64-Bit")
+  (VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition")
+  (DIVIDER .)
+  (TIMESCALE 10 ps)
+
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr3\|counter_reg_bit7a\[1\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.2:157.2:157.2) (157.2:157.2:157.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (157.4:157.4:157.4) (157.4:157.4:157.4))
+        (PORT ena (89.2:89.2:89.2) (89.2:89.2:89.2))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr3\|counter_reg_bit7a\[0\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.2:157.2:157.2) (157.2:157.2:157.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (157.4:157.4:157.4) (157.4:157.4:157.4))
+        (PORT ena (89.2:89.2:89.2) (89.2:89.2:89.2))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr3\|counter_comb_bita0)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (32.2:32.2:32.2) (32.2:32.2:32.2))
+        (IOPATH dataa combout (39.8:39.8:39.8) (39.8:39.8:39.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr3\|counter_comb_bita1)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (32.2:32.2:32.2) (32.2:32.2:32.2))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[7\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[5\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[3\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[1\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[0\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita0)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (32.2:32.2:32.2) (32.2:32.2:32.2))
+        (IOPATH dataa combout (39.8:39.8:39.8) (39.8:39.8:39.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita1)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (32.2:32.2:32.2) (32.2:32.2:32.2))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita3)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (32.5:32.5:32.5) (32.5:32.5:32.5))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita5)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (32.5:32.5:32.5) (32.5:32.5:32.5))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita7)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (32.5:32.5:32.5) (32.5:32.5:32.5))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|cmpr7\|aneb_result_wire\[0\]\~1)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (48.4:48.4:48.4) (48.4:48.4:48.4))
+        (PORT datab (52.2:52.2:52.2) (52.2:52.2:52.2))
+        (PORT datac (34:34:34) (34:34:34))
+        (PORT datad (32.9:32.9:32.9) (32.9:32.9:32.9))
+        (IOPATH dataa combout (41:41:41) (41:41:41))
+        (IOPATH datab combout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datac combout (27.5:27.5:27.5) (27.5:27.5:27.5))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE clk\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (99.9:99.9:99.9) (99.9:99.9:99.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_clkctrl")
+    (INSTANCE clk\~clkctrl)
+    (DELAY
+      (ABSOLUTE
+        (PORT inclk[0] (11.8:11.8:11.8) (11.8:11.8:11.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ena_reg")
+    (INSTANCE clk\~clkctrl.extena0_reg)
+    (DELAY
+      (ABSOLUTE
+        (PORT d (25.4:25.4:25.4) (25.4:25.4:25.4))
+        (PORT clk (0:0:0) (0:0:0))
+        (IOPATH (posedge clk) q (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (5:5:5))
+      (HOLD d (posedge clk) (10:10:10))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr3\|counter_comb_bita2)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (30:30:30) (30:30:30))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (48.5:48.5:48.5) (48.5:48.5:48.5))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (15.9:15.9:15.9) (15.9:15.9:15.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE rst_n\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (99.9:99.9:99.9) (99.9:99.9:99.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_clkctrl")
+    (INSTANCE rst_n\~clkctrl)
+    (DELAY
+      (ABSOLUTE
+        (PORT inclk[0] (11.8:11.8:11.8) (11.8:11.8:11.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ena_reg")
+    (INSTANCE rst_n\~clkctrl.extena0_reg)
+    (DELAY
+      (ABSOLUTE
+        (PORT d (25.4:25.4:25.4) (25.4:25.4:25.4))
+        (PORT clk (0:0:0) (0:0:0))
+        (IOPATH (posedge clk) q (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (5:5:5))
+      (HOLD d (posedge clk) (10:10:10))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr3\|counter_reg_bit7a\[2\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.2:157.2:157.2) (157.2:157.2:157.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (157.4:157.4:157.4) (157.4:157.4:157.4))
+        (PORT ena (89.2:89.2:89.2) (89.2:89.2:89.2))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr3\|counter_comb_bita2\~0)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH cin combout (41:41:41) (41:41:41))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|dffe4\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (43.2:43.2:43.2) (43.2:43.2:43.2))
+        (IOPATH datad combout (14.9:14.9:14.9) (14.9:14.9:14.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|dffe4)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.2:157.2:157.2) (157.2:157.2:157.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (157.4:157.4:157.4) (157.4:157.4:157.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE per_clken\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (86:86:86) (86:86:86))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita2)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (30:30:30) (30:30:30))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (48.5:48.5:48.5) (48.5:48.5:48.5))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (15.9:15.9:15.9) (15.9:15.9:15.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE aclr\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (99.9:99.9:99.9) (99.9:99.9:99.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_clkctrl")
+    (INSTANCE aclr\~clkctrl)
+    (DELAY
+      (ABSOLUTE
+        (PORT inclk[0] (11.3:11.3:11.3) (11.3:11.3:11.3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ena_reg")
+    (INSTANCE aclr\~clkctrl.extena0_reg)
+    (DELAY
+      (ABSOLUTE
+        (PORT d (25.4:25.4:25.4) (25.4:25.4:25.4))
+        (PORT clk (0:0:0) (0:0:0))
+        (IOPATH (posedge clk) q (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (5:5:5))
+      (HOLD d (posedge clk) (10:10:10))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[9\]\~0)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (512.6:512.6:512.6) (512.6:512.6:512.6))
+        (PORT datad (25.6:25.6:25.6) (25.6:25.6:25.6))
+        (IOPATH datac combout (27.5:27.5:27.5) (27.5:27.5:27.5))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[2\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita4)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (31:31:31) (31:31:31))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[4\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita6)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (31.1:31.1:31.1) (31.1:31.1:31.1))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[6\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita8)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (31.4:31.4:31.4) (31.4:31.4:31.4))
+        (IOPATH datab combout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[8\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita9)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (31.4:31.4:31.4) (31.4:31.4:31.4))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_reg_bit8a\[9\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (89.4:89.4:89.4) (89.4:89.4:89.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr3\|counter_comb_bita9\~0)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH cin combout (41:41:41) (41:41:41))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|dffe4\~feeder)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (25.6:25.6:25.6) (25.6:25.6:25.6))
+        (IOPATH datad combout (14.9:14.9:14.9) (14.9:14.9:14.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|dffe4)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (158.2:158.2:158.2) (158.2:158.2:158.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT aclr (158.6:158.6:158.6) (158.6:158.6:158.6))
+        (PORT ena (575.8:575.8:575.8) (575.8:575.8:575.8))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+        (IOPATH (posedge aclr) regout (21.8:21.8:21.8) (21.8:21.8:21.8))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[0\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (85:85:85) (85:85:85))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita0)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (31.8:31.8:31.8) (31.8:31.8:31.8))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita1)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (34.1:34.1:34.1) (34.1:34.1:34.1))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita2)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (34.1:34.1:34.1) (34.1:34.1:34.1))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita3)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (32.6:32.6:32.6) (32.6:32.6:32.6))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (48.5:48.5:48.5) (48.5:48.5:48.5))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (15.9:15.9:15.9) (15.9:15.9:15.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[3\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.1:86.1:86.1) (86.1:86.1:86.1))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita4)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (34.5:34.5:34.5) (34.5:34.5:34.5))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita5)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (32.8:32.8:32.8) (32.8:32.8:32.8))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[5\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.4:86.4:86.4) (86.4:86.4:86.4))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita6)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (34.6:34.6:34.6) (34.6:34.6:34.6))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita7)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (32.8:32.8:32.8) (32.8:32.8:32.8))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[7\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.3:86.3:86.3) (86.3:86.3:86.3))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita8)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (35.4:35.4:35.4) (35.4:35.4:35.4))
+        (IOPATH dataa combout (43.8:43.8:43.8) (43.8:43.8:43.8))
+        (IOPATH dataa cout (41.4:41.4:41.4) (41.4:41.4:41.4))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[8\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.3:86.3:86.3) (86.3:86.3:86.3))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita9)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (32:32:32) (32:32:32))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+        (IOPATH cin cout (7.1:7.1:7.1) (7.1:7.1:7.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[9\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.2:86.2:86.2) (86.2:86.2:86.2))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|cmpr7\|aneb_result_wire\[0\]\~0)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (35.2:35.2:35.2) (35.2:35.2:35.2))
+        (PORT datab (33.3:33.3:33.3) (33.3:33.3:33.3))
+        (PORT datac (34.8:34.8:34.8) (34.8:34.8:34.8))
+        (PORT datad (31.9:31.9:31.9) (31.9:31.9:31.9))
+        (IOPATH dataa combout (40.8:40.8:40.8) (40.8:40.8:40.8))
+        (IOPATH datab combout (37.1:37.1:37.1) (37.1:37.1:37.1))
+        (IOPATH datac combout (27.5:27.5:27.5) (27.5:27.5:27.5))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[1\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.2:86.2:86.2) (86.2:86.2:86.2))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|cmpr7\|aneb_result_wire\[0\]\~2)
+    (DELAY
+      (ABSOLUTE
+        (PORT datac (50.2:50.2:50.2) (50.2:50.2:50.2))
+        (PORT datad (50.6:50.6:50.6) (50.6:50.6:50.6))
+        (IOPATH datac combout (27.5:27.5:27.5) (27.5:27.5:27.5))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_comb_bita9\~0)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH cin combout (41:41:41) (41:41:41))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|cout_actual)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (26.7:26.7:26.7) (26.7:26.7:26.7))
+        (PORT datab (24.1:24.1:24.1) (24.1:24.1:24.1))
+        (PORT datac (25.5:25.5:25.5) (25.5:25.5:25.5))
+        (PORT datad (24.9:24.9:24.9) (24.9:24.9:24.9))
+        (IOPATH dataa combout (43.7:43.7:43.7) (43.7:43.7:43.7))
+        (IOPATH datab combout (41.9:41.9:41.9) (41.9:41.9:41.9))
+        (IOPATH datac combout (27.1:27.1:27.1) (27.1:27.1:27.1))
+        (IOPATH datad combout (14.9:14.9:14.9) (14.9:14.9:14.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[0\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.2:86.2:86.2) (86.2:86.2:86.2))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[2\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.1:86.1:86.1) (86.1:86.1:86.1))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[4\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.5:86.5:86.5) (86.5:86.5:86.5))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|cntr1\|counter_reg_bit6a\[6\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.9:157.9:157.9) (157.9:157.9:157.9))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (PORT sdata (86.4:86.4:86.4) (86.4:86.4:86.4))
+        (PORT sload (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT ena (573.9:573.9:573.9) (573.9:573.9:573.9))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+      (HOLD sload (posedge clk) (26.6:26.6:26.6))
+      (HOLD sdata (posedge clk) (26.6:26.6:26.6))
+      (HOLD ena (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[1\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (82:82:82) (82:82:82))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[6\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (81:81:81) (81:81:81))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[7\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (88:88:88) (88:88:88))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[8\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (82:82:82) (82:82:82))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[9\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (82:82:82) (82:82:82))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (526:526:526) (526:526:526))
+        (PORT d[1] (547.9:547.9:547.9) (547.9:547.9:547.9))
+        (PORT d[2] (523.1:523.1:523.1) (523.1:523.1:523.1))
+        (PORT d[3] (524.7:524.7:524.7) (524.7:524.7:524.7))
+        (PORT clk (164.4:164.4:164.4) (164.4:164.4:164.4))
+        (PORT ena (554.2:554.2:554.2) (554.2:554.2:554.2))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (135.1:135.1:135.1) (135.1:135.1:135.1))
+        (PORT d[1] (107.5:107.5:107.5) (107.5:107.5:107.5))
+        (PORT d[2] (105.2:105.2:105.2) (105.2:105.2:105.2))
+        (PORT d[3] (134.4:134.4:134.4) (134.4:134.4:134.4))
+        (PORT d[4] (132.3:132.3:132.3) (132.3:132.3:132.3))
+        (PORT d[5] (131:131:131) (131:131:131))
+        (PORT d[6] (131.7:131.7:131.7) (131.7:131.7:131.7))
+        (PORT d[7] (132.5:132.5:132.5) (132.5:132.5:132.5))
+        (PORT d[8] (133:133:133) (133:133:133))
+        (PORT d[9] (135.1:135.1:135.1) (135.1:135.1:135.1))
+        (PORT clk (164.5:164.5:164.5) (164.5:164.5:164.5))
+        (PORT ena (554.3:554.3:554.3) (554.3:554.3:554.3))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (30.9:30.9:30.9) (30.9:30.9:30.9))
+        (PORT clk (164.5:164.5:164.5) (164.5:164.5:164.5))
+        (PORT ena (554.3:554.3:554.3) (554.3:554.3:554.3))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (164.5:164.5:164.5) (164.5:164.5:164.5))
+        (PORT d[0] (554.3:554.3:554.3) (554.3:554.3:554.3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (185.4:185.4:185.4) (185.4:185.4:185.4))
+        (IOPATH (posedge clk) pulse (0:0:0) (101.1:101.1:101.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (185.4:185.4:185.4) (185.4:185.4:185.4))
+        (IOPATH (posedge clk) pulse (0:0:0) (212.3:212.3:212.3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.addr_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (135.3:135.3:135.3) (135.3:135.3:135.3))
+        (PORT d[1] (107.5:107.5:107.5) (107.5:107.5:107.5))
+        (PORT d[2] (157.6:157.6:157.6) (157.6:157.6:157.6))
+        (PORT d[3] (134.4:134.4:134.4) (134.4:134.4:134.4))
+        (PORT d[4] (132.3:132.3:132.3) (132.3:132.3:132.3))
+        (PORT d[5] (131:131:131) (131:131:131))
+        (PORT d[6] (131.7:131.7:131.7) (131.7:131.7:131.7))
+        (PORT d[7] (132.5:132.5:132.5) (132.5:132.5:132.5))
+        (PORT d[8] (133:133:133) (133:133:133))
+        (PORT d[9] (135.1:135.1:135.1) (135.1:135.1:135.1))
+        (PORT clk (167.3:167.3:167.3) (167.3:167.3:167.3))
+        (PORT ena (557.1:557.1:557.1) (557.1:557.1:557.1))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.rewe_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (31.2:31.2:31.2) (31.2:31.2:31.2))
+        (PORT clk (167.3:167.3:167.3) (167.3:167.3:167.3))
+        (PORT ena (557.1:557.1:557.1) (557.1:557.1:557.1))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.active_port_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (167.3:167.3:167.3) (167.3:167.3:167.3))
+        (PORT d[0] (557.1:557.1:557.1) (557.1:557.1:557.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.rpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (188.2:188.2:188.2) (188.2:188.2:188.2))
+        (IOPATH (posedge clk) pulse (0:0:0) (289.2:289.2:289.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a6.dataout_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (162:162:162) (162:162:162))
+        (PORT ena (551.8:551.8:551.8) (551.8:551.8:551.8))
+        (PORT aclr (202.2:202.2:202.2) (202.2:202.2:202.2))
+        (IOPATH (posedge clk) q (29.7:29.7:29.7) (29.7:29.7:29.7))
+        (IOPATH (posedge aclr) q (38.5:38.5:38.5) (38.5:38.5:38.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (SETUP aclr (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+      (HOLD aclr (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (526.1:526.1:526.1) (526.1:526.1:526.1))
+        (PORT d[1] (525.8:525.8:525.8) (525.8:525.8:525.8))
+        (PORT d[2] (88.8:88.8:88.8) (88.8:88.8:88.8))
+        (PORT d[3] (89.2:89.2:89.2) (89.2:89.2:89.2))
+        (PORT clk (164.3:164.3:164.3) (164.3:164.3:164.3))
+        (PORT ena (555.8:555.8:555.8) (555.8:555.8:555.8))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (130.1:130.1:130.1) (130.1:130.1:130.1))
+        (PORT d[1] (106.7:106.7:106.7) (106.7:106.7:106.7))
+        (PORT d[2] (130.7:130.7:130.7) (130.7:130.7:130.7))
+        (PORT d[3] (135.3:135.3:135.3) (135.3:135.3:135.3))
+        (PORT d[4] (163.5:163.5:163.5) (163.5:163.5:163.5))
+        (PORT d[5] (129.9:129.9:129.9) (129.9:129.9:129.9))
+        (PORT d[6] (132.9:132.9:132.9) (132.9:132.9:132.9))
+        (PORT d[7] (129.4:129.4:129.4) (129.4:129.4:129.4))
+        (PORT d[8] (130.3:130.3:130.3) (130.3:130.3:130.3))
+        (PORT d[9] (132.4:132.4:132.4) (132.4:132.4:132.4))
+        (PORT clk (164.4:164.4:164.4) (164.4:164.4:164.4))
+        (PORT ena (555.9:555.9:555.9) (555.9:555.9:555.9))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (30.9:30.9:30.9) (30.9:30.9:30.9))
+        (PORT clk (164.4:164.4:164.4) (164.4:164.4:164.4))
+        (PORT ena (555.9:555.9:555.9) (555.9:555.9:555.9))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (164.4:164.4:164.4) (164.4:164.4:164.4))
+        (PORT d[0] (555.9:555.9:555.9) (555.9:555.9:555.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (185.3:185.3:185.3) (185.3:185.3:185.3))
+        (IOPATH (posedge clk) pulse (0:0:0) (101.1:101.1:101.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (185.3:185.3:185.3) (185.3:185.3:185.3))
+        (IOPATH (posedge clk) pulse (0:0:0) (212.3:212.3:212.3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.addr_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (130.1:130.1:130.1) (130.1:130.1:130.1))
+        (PORT d[1] (106.7:106.7:106.7) (106.7:106.7:106.7))
+        (PORT d[2] (129.7:129.7:129.7) (129.7:129.7:129.7))
+        (PORT d[3] (135.3:135.3:135.3) (135.3:135.3:135.3))
+        (PORT d[4] (163.5:163.5:163.5) (163.5:163.5:163.5))
+        (PORT d[5] (129.9:129.9:129.9) (129.9:129.9:129.9))
+        (PORT d[6] (132.9:132.9:132.9) (132.9:132.9:132.9))
+        (PORT d[7] (129.4:129.4:129.4) (129.4:129.4:129.4))
+        (PORT d[8] (130.3:130.3:130.3) (130.3:130.3:130.3))
+        (PORT d[9] (132.4:132.4:132.4) (132.4:132.4:132.4))
+        (PORT clk (167.2:167.2:167.2) (167.2:167.2:167.2))
+        (PORT ena (558.7:558.7:558.7) (558.7:558.7:558.7))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.rewe_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (31.2:31.2:31.2) (31.2:31.2:31.2))
+        (PORT clk (167.2:167.2:167.2) (167.2:167.2:167.2))
+        (PORT ena (558.7:558.7:558.7) (558.7:558.7:558.7))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.active_port_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (167.2:167.2:167.2) (167.2:167.2:167.2))
+        (PORT d[0] (558.7:558.7:558.7) (558.7:558.7:558.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.rpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (188.1:188.1:188.1) (188.1:188.1:188.1))
+        (IOPATH (posedge clk) pulse (0:0:0) (289.2:289.2:289.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a0.dataout_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (161.9:161.9:161.9) (161.9:161.9:161.9))
+        (PORT ena (553.4:553.4:553.4) (553.4:553.4:553.4))
+        (PORT aclr (202.1:202.1:202.1) (202.1:202.1:202.1))
+        (IOPATH (posedge clk) q (29.7:29.7:29.7) (29.7:29.7:29.7))
+        (IOPATH (posedge aclr) q (38.5:38.5:38.5) (38.5:38.5:38.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (SETUP aclr (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+      (HOLD aclr (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[2\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (86:86:86) (86:86:86))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[3\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (85:85:85) (85:85:85))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[4\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (85:85:85) (85:85:85))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE gauss_A_in\[5\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (86:86:86) (86:86:86))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (527.3:527.3:527.3) (527.3:527.3:527.3))
+        (PORT d[1] (552:552:552) (552:552:552))
+        (PORT d[2] (550.4:550.4:550.4) (550.4:550.4:550.4))
+        (PORT d[3] (527.3:527.3:527.3) (527.3:527.3:527.3))
+        (PORT clk (163.7:163.7:163.7) (163.7:163.7:163.7))
+        (PORT ena (583.6:583.6:583.6) (583.6:583.6:583.6))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (102.8:102.8:102.8) (102.8:102.8:102.8))
+        (PORT d[1] (76.6:76.6:76.6) (76.6:76.6:76.6))
+        (PORT d[2] (75.1:75.1:75.1) (75.1:75.1:75.1))
+        (PORT d[3] (159.8:159.8:159.8) (159.8:159.8:159.8))
+        (PORT d[4] (102.1:102.1:102.1) (102.1:102.1:102.1))
+        (PORT d[5] (165.8:165.8:165.8) (165.8:165.8:165.8))
+        (PORT d[6] (103.5:103.5:103.5) (103.5:103.5:103.5))
+        (PORT d[7] (159:159:159) (159:159:159))
+        (PORT d[8] (102.9:102.9:102.9) (102.9:102.9:102.9))
+        (PORT d[9] (144.8:144.8:144.8) (144.8:144.8:144.8))
+        (PORT clk (163.8:163.8:163.8) (163.8:163.8:163.8))
+        (PORT ena (583.7:583.7:583.7) (583.7:583.7:583.7))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (30.9:30.9:30.9) (30.9:30.9:30.9))
+        (PORT clk (163.8:163.8:163.8) (163.8:163.8:163.8))
+        (PORT ena (583.7:583.7:583.7) (583.7:583.7:583.7))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (163.8:163.8:163.8) (163.8:163.8:163.8))
+        (PORT d[0] (583.7:583.7:583.7) (583.7:583.7:583.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (184.7:184.7:184.7) (184.7:184.7:184.7))
+        (IOPATH (posedge clk) pulse (0:0:0) (101.1:101.1:101.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (184.7:184.7:184.7) (184.7:184.7:184.7))
+        (IOPATH (posedge clk) pulse (0:0:0) (212.3:212.3:212.3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.addr_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (101.9:101.9:101.9) (101.9:101.9:101.9))
+        (PORT d[1] (76.6:76.6:76.6) (76.6:76.6:76.6))
+        (PORT d[2] (75.1:75.1:75.1) (75.1:75.1:75.1))
+        (PORT d[3] (159.8:159.8:159.8) (159.8:159.8:159.8))
+        (PORT d[4] (102.1:102.1:102.1) (102.1:102.1:102.1))
+        (PORT d[5] (165.8:165.8:165.8) (165.8:165.8:165.8))
+        (PORT d[6] (103.5:103.5:103.5) (103.5:103.5:103.5))
+        (PORT d[7] (159:159:159) (159:159:159))
+        (PORT d[8] (102.9:102.9:102.9) (102.9:102.9:102.9))
+        (PORT d[9] (144.8:144.8:144.8) (144.8:144.8:144.8))
+        (PORT clk (166.6:166.6:166.6) (166.6:166.6:166.6))
+        (PORT ena (586.5:586.5:586.5) (586.5:586.5:586.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.rewe_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (31.2:31.2:31.2) (31.2:31.2:31.2))
+        (PORT clk (166.6:166.6:166.6) (166.6:166.6:166.6))
+        (PORT ena (586.5:586.5:586.5) (586.5:586.5:586.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.active_port_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (166.6:166.6:166.6) (166.6:166.6:166.6))
+        (PORT d[0] (586.5:586.5:586.5) (586.5:586.5:586.5))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.rpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (187.5:187.5:187.5) (187.5:187.5:187.5))
+        (IOPATH (posedge clk) pulse (0:0:0) (289.2:289.2:289.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a2.dataout_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (161.3:161.3:161.3) (161.3:161.3:161.3))
+        (PORT ena (581.2:581.2:581.2) (581.2:581.2:581.2))
+        (PORT aclr (172.1:172.1:172.1) (172.1:172.1:172.1))
+        (IOPATH (posedge clk) q (29.7:29.7:29.7) (29.7:29.7:29.7))
+        (IOPATH (posedge aclr) q (38.5:38.5:38.5) (38.5:38.5:38.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (SETUP aclr (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+      (HOLD aclr (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (88.9:88.9:88.9) (88.9:88.9:88.9))
+        (PORT d[1] (89:89:89) (89:89:89))
+        (PORT d[2] (89.6:89.6:89.6) (89.6:89.6:89.6))
+        (PORT d[3] (88.5:88.5:88.5) (88.5:88.5:88.5))
+        (PORT clk (164:164:164) (164:164:164))
+        (PORT ena (555.9:555.9:555.9) (555.9:555.9:555.9))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (131:131:131) (131:131:131))
+        (PORT d[1] (105.1:105.1:105.1) (105.1:105.1:105.1))
+        (PORT d[2] (156.9:156.9:156.9) (156.9:156.9:156.9))
+        (PORT d[3] (133.6:133.6:133.6) (133.6:133.6:133.6))
+        (PORT d[4] (102.6:102.6:102.6) (102.6:102.6:102.6))
+        (PORT d[5] (164.7:164.7:164.7) (164.7:164.7:164.7))
+        (PORT d[6] (131.4:131.4:131.4) (131.4:131.4:131.4))
+        (PORT d[7] (128.4:128.4:128.4) (128.4:128.4:128.4))
+        (PORT d[8] (130.4:130.4:130.4) (130.4:130.4:130.4))
+        (PORT d[9] (130.7:130.7:130.7) (130.7:130.7:130.7))
+        (PORT clk (164.1:164.1:164.1) (164.1:164.1:164.1))
+        (PORT ena (556:556:556) (556:556:556))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (30.9:30.9:30.9) (30.9:30.9:30.9))
+        (PORT clk (164.1:164.1:164.1) (164.1:164.1:164.1))
+        (PORT ena (556:556:556) (556:556:556))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (164.1:164.1:164.1) (164.1:164.1:164.1))
+        (PORT d[0] (556:556:556) (556:556:556))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (185:185:185) (185:185:185))
+        (IOPATH (posedge clk) pulse (0:0:0) (101.1:101.1:101.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (185:185:185) (185:185:185))
+        (IOPATH (posedge clk) pulse (0:0:0) (212.3:212.3:212.3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.addr_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (127:127:127) (127:127:127))
+        (PORT d[1] (105.1:105.1:105.1) (105.1:105.1:105.1))
+        (PORT d[2] (156.9:156.9:156.9) (156.9:156.9:156.9))
+        (PORT d[3] (133.6:133.6:133.6) (133.6:133.6:133.6))
+        (PORT d[4] (102.6:102.6:102.6) (102.6:102.6:102.6))
+        (PORT d[5] (164.7:164.7:164.7) (164.7:164.7:164.7))
+        (PORT d[6] (131.4:131.4:131.4) (131.4:131.4:131.4))
+        (PORT d[7] (128.4:128.4:128.4) (128.4:128.4:128.4))
+        (PORT d[8] (130.4:130.4:130.4) (130.4:130.4:130.4))
+        (PORT d[9] (130.7:130.7:130.7) (130.7:130.7:130.7))
+        (PORT clk (166.9:166.9:166.9) (166.9:166.9:166.9))
+        (PORT ena (558.8:558.8:558.8) (558.8:558.8:558.8))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.rewe_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (31.2:31.2:31.2) (31.2:31.2:31.2))
+        (PORT clk (166.9:166.9:166.9) (166.9:166.9:166.9))
+        (PORT ena (558.8:558.8:558.8) (558.8:558.8:558.8))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.active_port_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (166.9:166.9:166.9) (166.9:166.9:166.9))
+        (PORT d[0] (558.8:558.8:558.8) (558.8:558.8:558.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.rpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (187.8:187.8:187.8) (187.8:187.8:187.8))
+        (IOPATH (posedge clk) pulse (0:0:0) (289.2:289.2:289.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a10.dataout_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (161.6:161.6:161.6) (161.6:161.6:161.6))
+        (PORT ena (553.5:553.5:553.5) (553.5:553.5:553.5))
+        (PORT aclr (200:200:200) (200:200:200))
+        (IOPATH (posedge clk) q (29.7:29.7:29.7) (29.7:29.7:29.7))
+        (IOPATH (posedge aclr) q (38.5:38.5:38.5) (38.5:38.5:38.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (SETUP aclr (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+      (HOLD aclr (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr1\|counter_comb_bita0)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (31.4:31.4:31.4) (31.4:31.4:31.4))
+        (IOPATH datab combout (42:42:42) (42:42:42))
+        (IOPATH datab cout (39.3:39.3:39.3) (39.3:39.3:39.3))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr1\|counter_reg_bit6a\[0\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.2:157.2:157.2) (157.2:157.2:157.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_comb")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr1\|counter_comb_bita1)
+    (DELAY
+      (ABSOLUTE
+        (PORT datad (30.9:30.9:30.9) (30.9:30.9:30.9))
+        (IOPATH datad combout (15:15:15) (15:15:15))
+        (IOPATH cin combout (41:41:41) (41:41:41))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_lcell_ff")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|cntr1\|counter_reg_bit6a\[1\])
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (157.2:157.2:157.2) (157.2:157.2:157.2))
+        (PORT datain (8.4:8.4:8.4) (8.4:8.4:8.4))
+        (IOPATH (posedge clk) regout (25:25:25) (25:25:25))
+      )
+    )
+    (TIMINGCHECK
+      (HOLD datain (posedge clk) (26.6:26.6:26.6))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (89.8:89.8:89.8) (89.8:89.8:89.8))
+        (PORT d[1] (88.5:88.5:88.5) (88.5:88.5:88.5))
+        (PORT d[2] (92.9:92.9:92.9) (92.9:92.9:92.9))
+        (PORT d[3] (91.8:91.8:91.8) (91.8:91.8:91.8))
+        (PORT clk (163.3:163.3:163.3) (163.3:163.3:163.3))
+        (PORT ena (610.6:610.6:610.6) (610.6:610.6:610.6))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (150.6:150.6:150.6) (150.6:150.6:150.6))
+        (PORT d[1] (104.9:104.9:104.9) (104.9:104.9:104.9))
+        (PORT d[2] (130.7:130.7:130.7) (130.7:130.7:130.7))
+        (PORT d[3] (130.9:130.9:130.9) (130.9:130.9:130.9))
+        (PORT d[4] (166.8:166.8:166.8) (166.8:166.8:166.8))
+        (PORT d[5] (166.3:166.3:166.3) (166.3:166.3:166.3))
+        (PORT d[6] (128.9:128.9:128.9) (128.9:128.9:128.9))
+        (PORT d[7] (160.5:160.5:160.5) (160.5:160.5:160.5))
+        (PORT d[8] (131.1:131.1:131.1) (131.1:131.1:131.1))
+        (PORT d[9] (130.2:130.2:130.2) (130.2:130.2:130.2))
+        (PORT clk (163.4:163.4:163.4) (163.4:163.4:163.4))
+        (PORT ena (610.7:610.7:610.7) (610.7:610.7:610.7))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (30.9:30.9:30.9) (30.9:30.9:30.9))
+        (PORT clk (163.4:163.4:163.4) (163.4:163.4:163.4))
+        (PORT ena (610.7:610.7:610.7) (610.7:610.7:610.7))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (163.4:163.4:163.4) (163.4:163.4:163.4))
+        (PORT d[0] (610.7:610.7:610.7) (610.7:610.7:610.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (184.3:184.3:184.3) (184.3:184.3:184.3))
+        (IOPATH (posedge clk) pulse (0:0:0) (101.1:101.1:101.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (184.3:184.3:184.3) (184.3:184.3:184.3))
+        (IOPATH (posedge clk) pulse (0:0:0) (212.3:212.3:212.3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.addr_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (150.2:150.2:150.2) (150.2:150.2:150.2))
+        (PORT d[1] (104.9:104.9:104.9) (104.9:104.9:104.9))
+        (PORT d[2] (128.9:128.9:128.9) (128.9:128.9:128.9))
+        (PORT d[3] (130.9:130.9:130.9) (130.9:130.9:130.9))
+        (PORT d[4] (166.8:166.8:166.8) (166.8:166.8:166.8))
+        (PORT d[5] (166.3:166.3:166.3) (166.3:166.3:166.3))
+        (PORT d[6] (128.9:128.9:128.9) (128.9:128.9:128.9))
+        (PORT d[7] (160.5:160.5:160.5) (160.5:160.5:160.5))
+        (PORT d[8] (131.1:131.1:131.1) (131.1:131.1:131.1))
+        (PORT d[9] (130.2:130.2:130.2) (130.2:130.2:130.2))
+        (PORT clk (166.2:166.2:166.2) (166.2:166.2:166.2))
+        (PORT ena (613.5:613.5:613.5) (613.5:613.5:613.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.rewe_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (31.2:31.2:31.2) (31.2:31.2:31.2))
+        (PORT clk (166.2:166.2:166.2) (166.2:166.2:166.2))
+        (PORT ena (613.5:613.5:613.5) (613.5:613.5:613.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.active_port_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (166.2:166.2:166.2) (166.2:166.2:166.2))
+        (PORT d[0] (613.5:613.5:613.5) (613.5:613.5:613.5))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.rpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (187.1:187.1:187.1) (187.1:187.1:187.1))
+        (IOPATH (posedge clk) pulse (0:0:0) (289.2:289.2:289.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE linebuffer0\|ALTSHIFT_TAPS_component\|auto_generated\|altsyncram2\|ram_block5a14.dataout_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (160.9:160.9:160.9) (160.9:160.9:160.9))
+        (PORT ena (608.2:608.2:608.2) (608.2:608.2:608.2))
+        (PORT aclr (172.1:172.1:172.1) (172.1:172.1:172.1))
+        (IOPATH (posedge clk) q (29.7:29.7:29.7) (29.7:29.7:29.7))
+        (IOPATH (posedge aclr) q (38.5:38.5:38.5) (38.5:38.5:38.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP ena (posedge clk) (3.5:3.5:3.5))
+      (SETUP aclr (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD ena (posedge clk) (23.4:23.4:23.4))
+      (HOLD aclr (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.datain_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (115.7:115.7:115.7) (115.7:115.7:115.7))
+        (PORT d[1] (90.9:90.9:90.9) (90.9:90.9:90.9))
+        (PORT d[2] (90.7:90.7:90.7) (90.7:90.7:90.7))
+        (PORT d[3] (91.6:91.6:91.6) (91.6:91.6:91.6))
+        (PORT d[4] (90.1:90.1:90.1) (90.1:90.1:90.1))
+        (PORT d[5] (88.8:88.8:88.8) (88.8:88.8:88.8))
+        (PORT d[6] (88.9:88.9:88.9) (88.9:88.9:88.9))
+        (PORT d[7] (88.7:88.7:88.7) (88.7:88.7:88.7))
+        (PORT d[8] (92.2:92.2:92.2) (92.2:92.2:92.2))
+        (PORT d[9] (92.9:92.9:92.9) (92.9:92.9:92.9))
+        (PORT clk (162.8:162.8:162.8) (162.8:162.8:162.8))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.addr_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (73.6:73.6:73.6) (73.6:73.6:73.6))
+        (PORT d[1] (73.3:73.3:73.3) (73.3:73.3:73.3))
+        (PORT clk (162.9:162.9:162.9) (162.9:162.9:162.9))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.we_a_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (30.9:30.9:30.9) (30.9:30.9:30.9))
+        (PORT clk (162.9:162.9:162.9) (162.9:162.9:162.9))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.active_port_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (162.9:162.9:162.9) (162.9:162.9:162.9))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.wpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (183.8:183.8:183.8) (183.8:183.8:183.8))
+        (IOPATH (posedge clk) pulse (0:0:0) (101.1:101.1:101.1))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.rpgen_a)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (183.8:183.8:183.8) (183.8:183.8:183.8))
+        (IOPATH (posedge clk) pulse (0:0:0) (212.3:212.3:212.3))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.addr_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (73.6:73.6:73.6) (73.6:73.6:73.6))
+        (PORT d[1] (73.3:73.3:73.3) (73.3:73.3:73.3))
+        (PORT clk (165.7:165.7:165.7) (165.7:165.7:165.7))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.rewe_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT d[0] (31.2:31.2:31.2) (31.2:31.2:31.2))
+        (PORT clk (165.7:165.7:165.7) (165.7:165.7:165.7))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.active_port_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (165.7:165.7:165.7) (165.7:165.7:165.7))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_pulse_generator")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.rpgen_b)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (186.6:186.6:186.6) (186.6:186.6:186.6))
+        (IOPATH (posedge clk) pulse (0:0:0) (289.2:289.2:289.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ram_register")
+    (INSTANCE delay_1x_rtl_0\|auto_generated\|altsyncram2\|ram_block5a0.dataout_b_register)
+    (DELAY
+      (ABSOLUTE
+        (PORT clk (160.4:160.4:160.4) (160.4:160.4:160.4))
+        (PORT aclr (170:170:170) (170:170:170))
+        (IOPATH (posedge clk) q (29.7:29.7:29.7) (29.7:29.7:29.7))
+        (IOPATH (posedge aclr) q (38.5:38.5:38.5) (38.5:38.5:38.5))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (3.5:3.5:3.5))
+      (SETUP aclr (posedge clk) (3.5:3.5:3.5))
+      (HOLD d (posedge clk) (23.4:23.4:23.4))
+      (HOLD aclr (posedge clk) (23.4:23.4:23.4))
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[0\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (90.6:90.6:90.6) (90.6:90.6:90.6))
+        (IOPATH datain padio (280.8:280.8:280.8) (280.8:280.8:280.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[1\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (132.3:132.3:132.3) (132.3:132.3:132.3))
+        (IOPATH datain padio (278.8:278.8:278.8) (278.8:278.8:278.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[2\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (111.7:111.7:111.7) (111.7:111.7:111.7))
+        (IOPATH datain padio (276.8:276.8:276.8) (276.8:276.8:276.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[3\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (103.6:103.6:103.6) (103.6:103.6:103.6))
+        (IOPATH datain padio (263.2:263.2:263.2) (263.2:263.2:263.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[4\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (110.6:110.6:110.6) (110.6:110.6:110.6))
+        (IOPATH datain padio (279.8:279.8:279.8) (279.8:279.8:279.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[5\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (127.9:127.9:127.9) (127.9:127.9:127.9))
+        (IOPATH datain padio (266.2:266.2:266.2) (266.2:266.2:266.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[6\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (128.1:128.1:128.1) (128.1:128.1:128.1))
+        (IOPATH datain padio (266.2:266.2:266.2) (266.2:266.2:266.2))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[7\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (89.6:89.6:89.6) (89.6:89.6:89.6))
+        (IOPATH datain padio (278.8:278.8:278.8) (278.8:278.8:278.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[8\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (112.4:112.4:112.4) (112.4:112.4:112.4))
+        (IOPATH datain padio (276.8:276.8:276.8) (276.8:276.8:276.8))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE delay_6x\[9\]\~I.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (114.4:114.4:114.4) (114.4:114.4:114.4))
+        (IOPATH datain padio (278.8:278.8:278.8) (278.8:278.8:278.8))
+      )
+    )
+  )
+)

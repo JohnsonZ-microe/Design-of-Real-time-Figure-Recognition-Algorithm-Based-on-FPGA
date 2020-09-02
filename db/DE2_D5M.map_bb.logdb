@@ -1,0 +1,2 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,sobel_top:sobel_top0|gaussian_function:gaussian_function0|mult:mult_crcb|lpm_mult:lpm_mult_component|mult_jan:auto_generated|mac_out2,

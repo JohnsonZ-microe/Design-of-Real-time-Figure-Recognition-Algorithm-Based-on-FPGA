@@ -1,0 +1,11 @@
+//0.001418 => 0.0000000001011100111
+
+module coeff_3(
+	datain,    
+	dataout
+	);
+	
+input [19:0] datain;
+output [19:0] dataout;
+
+assign dataout = (datain>>10) + (datain>>12) + (datain>>13) + (datain>>14) + (datain>>17) +(datain>>18) + (datain>>19);

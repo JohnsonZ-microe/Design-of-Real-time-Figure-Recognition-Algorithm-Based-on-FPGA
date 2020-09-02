@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {gaussian_function_sim.vho gaussian_function_sim_vhd.sdo}}
+	{{"Fast Model"} {gaussian_function_sim_fast.vho gaussian_function_sim_vhd_fast.sdo}}
+}

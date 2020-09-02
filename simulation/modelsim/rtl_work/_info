@@ -1,0 +1,208 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\360MoveData\Users\Administrator\Desktop\TRDB-D5M_v.1.2.4_SystemCD\our_project\simulation\modelsim
+vbufferr
+Id>2E_nmEH]:3z9h[IRLQ[3
+VH6U3=1fZLZ?10U4n_PM8@0
+Z1 dD:\360MoveData\Users\Administrator\Desktop\TRDB-D5M_v.1.2.4_SystemCD\our_project\simulation\modelsim
+w1583744117
+8D:/altera/FPGAproject/medianfilter/bufferr.v
+FD:/altera/FPGAproject/medianfilter/bufferr.v
+L0 6
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/altera/FPGAproject/medianfilter -O0
+!i10b 1
+!s100 @RXT=7[izezgE2E_EGK0<0
+!s85 0
+!s108 1583990457.131000
+!s107 D:/altera/FPGAproject/medianfilter/bufferr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/FPGAproject/medianfilter|D:/altera/FPGAproject/medianfilter/bufferr.v|
+!s101 -O0
+vCCD_Capture
+IdmQedZJcA5V[Q`imj^:fm3
+VYhLEe45O14nSJCJi2VKY@1
+R1
+w1575462710
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V/CCD_Capture.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V/CCD_Capture.v
+L0 43
+R2
+r1
+31
+R3
+n@c@c@d_@capture
+!i10b 1
+!s100 @z`SG1Y8Y>dC@FXh11hFm3
+!s85 0
+!s108 1583990457.621000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V/CCD_Capture.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V/CCD_Capture.v|
+!s101 -O0
+Z5 !s92 -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V -O0
+vcolor_space
+Ikfohm75cnod3CW3jbD]RX3
+VdCkL3OS3]oP3KP9[[b^oI2
+R1
+w1583989582
+8D:/altera/FPGAproject/medianfilter/RGB_2_YCbCr.v
+FD:/altera/FPGAproject/medianfilter/RGB_2_YCbCr.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 KjPSzmgoI6lFTDVA[m[GS0
+!s85 0
+!s108 1583990456.559000
+!s107 D:/altera/FPGAproject/medianfilter/RGB_2_YCbCr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/FPGAproject/medianfilter|D:/altera/FPGAproject/medianfilter/RGB_2_YCbCr.v|
+!s101 -O0
+vI2C_CCD_Config
+!i10b 1
+!s100 dz1iL2Kzce^c`g1DB:C;D0
+IP]iII_Y4OG7Mb4@4j;CYd3
+VCT8bA9[>GFK@`6L>^CHKZ0
+R1
+Z6 w1348127752
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V/I2C_CCD_Config.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V/I2C_CCD_Config.v
+L0 43
+R2
+r1
+!s85 0
+31
+!s108 1583990457.790000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V/I2C_CCD_Config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/V/I2C_CCD_Config.v|
+!s101 -O0
+R3
+R5
+n@i2@c_@c@c@d_@config
+vlinebuffer_self
+IA]S:n5E<KUn:_U<8W47j:2
+Vi1J[1mN`BCL@ZRme?kZjz1
+R1
+w1583755097
+8D:/altera/FPGAproject/medianfilter/linebuffer.v
+FD:/altera/FPGAproject/medianfilter/linebuffer.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 @_kW>nA[2_^9A]n9k2YPP0
+!s85 0
+!s108 1583990457.014000
+!s107 D:/altera/FPGAproject/medianfilter/linebuffer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/FPGAproject/medianfilter|D:/altera/FPGAproject/medianfilter/linebuffer.v|
+!s101 -O0
+vmedian_filter
+IBl5HX9iNF<@]>^KLI1DC33
+VGgO>R>]V;BzM0m6nJ=g>V3
+R1
+w1583742818
+8D:/altera/FPGAproject/medianfilter/median_filter.v
+FD:/altera/FPGAproject/medianfilter/median_filter.v
+L0 9
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 X3:FnkVD8]CdoOn4<I=_C0
+!s85 0
+!s108 1583990456.916000
+!s107 D:/altera/FPGAproject/medianfilter/median_filter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/FPGAproject/medianfilter|D:/altera/FPGAproject/medianfilter/median_filter.v|
+!s101 -O0
+vSdram_FIFO
+IbYLf6WoF2lW:];z2LG]B>1
+V:^Q;Ue0Km6jTI^^UNVIj73
+R1
+R6
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/Sdram_Control_4Port/Sdram_FIFO.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/Sdram_Control_4Port/Sdram_FIFO.v
+L0 39
+R2
+r1
+31
+R3
+n@sdram_@f@i@f@o
+!i10b 1
+!s100 P`Ga2I[GED?F2=]DQUT2_3
+!s85 0
+!s108 1583990457.402000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/Sdram_Control_4Port/Sdram_FIFO.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/Sdram_Control_4Port|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/Sdram_Control_4Port/Sdram_FIFO.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/our_project/Sdram_Control_4Port -O0
+vsobel
+INIB3T@2K5_FCjBbf^01I=3
+VLA@aVlD21j?40cQ^e11J63
+R1
+w1583740652
+8D:/altera/FPGAproject/medianfilter/sobel.v
+FD:/altera/FPGAproject/medianfilter/sobel.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 We;N4VWk6AC@>ki_30WF_0
+!s85 0
+!s108 1583990456.825000
+!s107 D:/altera/FPGAproject/medianfilter/sobel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/FPGAproject/medianfilter|D:/altera/FPGAproject/medianfilter/sobel.v|
+!s101 -O0
+vsobel_top
+IiGP?b:g6?T4I32=67KfDF3
+VK;V?543WZnb9caeSJ`nki0
+R1
+w1583989581
+8D:/altera/FPGAproject/medianfilter/top.v
+FD:/altera/FPGAproject/medianfilter/top.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 2LWU_FQCIB<JjhISm@0EL0
+!s85 0
+!s108 1583990456.652000
+!s107 D:/altera/FPGAproject/medianfilter/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/FPGAproject/medianfilter|D:/altera/FPGAproject/medianfilter/top.v|
+!s101 -O0
+vsort
+ITA>RFm5E1Ylb3i6aXO3Ni2
+V61zJRzk?=[gTdJG;gm0nc3
+R1
+w1575602571
+8D:/altera/FPGAproject/medianfilter/sort.v
+FD:/altera/FPGAproject/medianfilter/sort.v
+L0 5
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 0BV<I4EI>A9Lb6ncPhEE`3
+!s85 0
+!s108 1583990456.737000
+!s107 D:/altera/FPGAproject/medianfilter/sort.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera/FPGAproject/medianfilter|D:/altera/FPGAproject/medianfilter/sort.v|
+!s101 -O0

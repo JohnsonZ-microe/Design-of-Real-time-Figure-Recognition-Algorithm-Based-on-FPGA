@@ -1,0 +1,7 @@
+module gaussian_function_tb;
+
+reg clk;       //输入：时钟信号
+reg rst_n;     //输入：复位信号
+reg [9:0]Cb;        //输入：通道Cb输入
+reg [9:0]Cr;        //输入：通道Cr输入
+reg [19:0]gauss;     //输出：gauss值

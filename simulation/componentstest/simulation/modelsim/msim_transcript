@@ -1,0 +1,85 @@
+# Reading D:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do gaussian_function_sim_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module coeff_1
+# 
+# Top level modules:
+# 	coeff_1
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/square.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module square
+# 
+# Top level modules:
+# 	square
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/mult.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mult
+# 
+# Top level modules:
+# 	mult
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/gaussian_function.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module gaussian_function
+# 
+# Top level modules:
+# 	gaussian_function
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module coeff_3
+# 
+# Top level modules:
+# 	coeff_3
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module coeff_2
+# 
+# Top level modules:
+# 	coeff_2
+# 
+# vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../.. {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../../gaussian_function_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module gaussian_function_tb
+# 
+# Top level modules:
+# 	gaussian_function_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  gaussian_function_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps gaussian_function_tb 
+# Loading work.gaussian_function_tb
+# Loading work.gaussian_function
+# Loading work.square
+# Loading altera_mf_ver.altsquare
+# Loading work.mult
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.coeff_1
+# Loading work.coeff_2
+# Loading work.coeff_3
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module gaussian_function_tb at D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../../gaussian_function_tb.v line 50
+# Simulation Breakpoint: Break in Module gaussian_function_tb at D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../../gaussian_function_tb.v line 50
+# MACRO ./gaussian_function_sim_run_msim_rtl_verilog.do PAUSED at line 22
+add wave sim:/gaussian_function_tb/gaussian_function_t/*
+restart -f
+run -all
+# Break in Module gaussian_function_tb at D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../../gaussian_function_tb.v line 50
+log help
+# (vish-4014) No objects found matching 'help'.
+log -r /*

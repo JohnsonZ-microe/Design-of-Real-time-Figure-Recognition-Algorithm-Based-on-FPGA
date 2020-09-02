@@ -1,0 +1,24 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port/Sdram_FIFO.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/CCD_Capture.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/I2C_CCD_Config.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/I2C_Controller.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/Line_Buffer.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/RAW2RGB.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/Reset_Delay.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/sdram_pll.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/SEG7_LUT.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/SEG7_LUT_8.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/DE2_D5M.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port/command.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port/control_interface.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port/sdr_data_path.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/Sdram_Control_4Port/Sdram_Control_4Port.v}
+vlog -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V {D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/V/VGA_Controller.v}
+

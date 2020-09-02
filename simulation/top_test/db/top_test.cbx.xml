@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="top_test">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_2ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_4ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult4|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_2ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult6|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_4ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|bufferr:bufferr0|linebuffer_self:linebuffer0|altshift_taps:ALTSHIFT_TAPS_component" CBX_FILE_NAME="shift_taps_4101.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_3ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_5ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult5|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_2ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_6ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult2|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_pah.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult4|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_6ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult6|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_pah.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_7ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult3|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_1ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sobel_top:sobel_top0|RGB_2_YCbCr:RGB_2_YCbCr0|lpm_mult:Mult5|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_6ch.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

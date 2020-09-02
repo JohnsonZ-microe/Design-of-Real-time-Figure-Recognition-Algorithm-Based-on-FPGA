@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Mar 05 18:25:36 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : delay_test
+Top-level Entity Name : delay
+Family : Cyclone II
+Total logic elements : 40
+    Total combinational functions : 40
+    Dedicated logic registers : 28
+Total registers : 28
+Total pins : 24
+Total virtual pins : 0
+Total memory bits : 12,820
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

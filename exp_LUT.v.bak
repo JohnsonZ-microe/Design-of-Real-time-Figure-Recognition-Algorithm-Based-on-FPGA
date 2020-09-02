@@ -1,0 +1,38 @@
+module exp_LUT(
+	datain,         //输入：x
+	dataout         //输出: 16*exp(-x)
+	);
+
+input  [19:0]  datain;
+output [19:0]  dataout;
+
+always@(datain)  begin
+	 
+	 if (datain == 0)
+		dataout = 16;
+	 else if (datain == 1)
+       dataout = 5.8864;
+    else if (datain == 2)
+       dataout = 2.1648;
+    else if (datain == 3)
+       dataout = 0.7968;
+    else if (datain == 4)
+       dataout = 0.2928;
+    else if (datain == 5)
+       dataout = 0.0067;
+    else if (datain == 6)
+       dataout = 0.1072;
+    else if (datain == 7)
+       dataout = 0.0146;
+    else if (datain == 8)
+       dataout = 0.0054;
+    else if (datain == 9)
+       dataout = 0.0020;
+    else if (gause_A == 10)
+       dataout = 0.0007;
+    else
+       dataout = 0;
+    end
+end
+
+endmodule

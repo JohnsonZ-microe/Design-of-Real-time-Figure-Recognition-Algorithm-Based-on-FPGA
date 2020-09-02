@@ -1,0 +1,7 @@
+//0.002175 => 
+
+module coeff_1(
+	datain,    
+	dataout
+	);
+	

@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\360MoveData\Users\Administrator\Desktop\TRDB-D5M_v.1.2.4_SystemCD\Demonstration\DE2_CAMERA\simulation\componentstest\simulation\modelsim
+vcoeff_1
+INA5TP;H<`k9X?CmXGj5Qm0
+VUPZ64AfE[J^Xc]1K7`THg2
+Z1 dD:\360MoveData\Users\Administrator\Desktop\TRDB-D5M_v.1.2.4_SystemCD\Demonstration\DE2_CAMERA\simulation\componentstest\simulation\modelsim
+w1583381175
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_1.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_1.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA -O0
+!i10b 1
+!s100 Lh6YVN@n<=Z43`@2i^:ok2
+!s85 0
+!s108 1583383706.219000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_1.v|
+!s101 -O0
+vcoeff_2
+IXQTA7>]KR5:FeemCXVlXa0
+VBS@RfUm8UMZ:RoY4EZOXh3
+R1
+w1583381203
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_2.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_2.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 L?3CKeoi`g`m9zhc10a_60
+!s85 0
+!s108 1583383706.894000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_2.v|
+!s101 -O0
+vcoeff_3
+IXlBQ1DNhJW5SYegblDgZ<2
+VFC:B6ddJaJf^fF[d:ioiK3
+R1
+w1583381413
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_3.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_3.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 jKk8gGOnGg86?dh?aeY^U0
+!s85 0
+!s108 1583383706.734000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/coeff_3.v|
+!s101 -O0
+vgaussian_function
+IB93AiUAi0]agZfA^1=1=X3
+Vgb5aIOH?J0<aA]jeo04gM0
+R1
+w1583383692
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/gaussian_function.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/gaussian_function.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 41_H5nY@cT>XPScgbA3QF2
+!s85 0
+!s108 1583383706.553000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/gaussian_function.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/gaussian_function.v|
+!s101 -O0
+vgaussian_function_tb
+!i10b 1
+!s100 L75l[;1:7^FfZNgjB?oTh1
+I8WN8oImLEXiZ^f^e49C112
+V=[ISKh>P?F1I>bl^NRiKl0
+R1
+w1583372259
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../../gaussian_function_tb.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../../gaussian_function_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1583383707.059000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../../gaussian_function_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../..|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../../gaussian_function_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/componentstest/../.. -O0
+vmult
+I=V<7W^G^f6OB7=^T78PaD0
+VJ7dild654?JM9^=Did>2T2
+R1
+w1583289869
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/mult.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/mult.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 `a3M7S^UfmDmK4QP`Ta2A1
+!s85 0
+!s108 1583383706.423000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/mult.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/mult.v|
+!s101 -O0
+vsquare
+IMC9i4RjHKOQVToKJY0oG43
+V=Sl15iIF4[IH>1JndUn<80
+R1
+w1583289729
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/square.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/square.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 hWfTNWalzYc6kYGomI?Z]3
+!s85 0
+!s108 1583383706.330000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/square.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/square.v|
+!s101 -O0

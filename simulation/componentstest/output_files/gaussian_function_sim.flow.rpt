@@ -1,0 +1,124 @@
+Flow report for gaussian_function_sim
+Thu Mar 05 12:48:14 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Thu Mar 05 12:48:14 2020           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; gaussian_function_sim                           ;
+; Top-level Entity Name              ; gaussian_function                               ;
+; Family                             ; Cyclone II                                      ;
+; Device                             ; EP2C35F672C6                                    ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 432                                             ;
+;     Total combinational functions  ; 432                                             ;
+;     Dedicated logic registers      ; 22                                              ;
+; Total registers                    ; 22                                              ;
+; Total pins                         ; 42                                              ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 2                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++-------------------------------------------+
+; Flow Settings                             ;
++-------------------+-----------------------+
+; Option            ; Setting               ;
++-------------------+-----------------------+
+; Start date & time ; 03/05/2020 12:48:13   ;
+; Main task         ; Compilation           ;
+; Revision Name     ; gaussian_function_sim ;
++-------------------+-----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++--------------------------------------+---------------------------------------+-----------------------+-------------------+----------------------+
+; Assignment Name                      ; Value                                 ; Default Value         ; Entity Name       ; Section Id           ;
++--------------------------------------+---------------------------------------+-----------------------+-------------------+----------------------+
+; COMPILER_SIGNATURE_ID                ; 35490513162866.158338369313884        ; --                    ; --                ; --                   ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --                    ; --                ; gaussian_function_tb ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; gaussian_function_tb                  ; --                    ; --                ; eda_simulation       ;
+; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                  ; --                    ; --                ; eda_simulation       ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                ; <None>                ; --                ; --                   ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --                    ; --                ; eda_simulation       ;
+; EDA_TEST_BENCH_FILE                  ; ../../gaussian_function_tb.v          ; --                    ; --                ; gaussian_function_tb ;
+; EDA_TEST_BENCH_MODULE_NAME           ; gaussian_function_tb                  ; --                    ; --                ; gaussian_function_tb ;
+; EDA_TEST_BENCH_NAME                  ; gaussian_function_tb                  ; --                    ; --                ; eda_simulation       ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                    ; --                    ; --                ; --                   ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                     ; --                    ; --                ; --                   ;
+; PARTITION_COLOR                      ; 16764057                              ; --                    ; gaussian_function ; Top                  ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --                    ; gaussian_function ; Top                  ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --                    ; gaussian_function ; Top                  ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                   ; --                    ; --                ; --                   ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --                    ; --                ; --                   ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                          ; --                    ; --                ; --                   ;
+; TOP_LEVEL_ENTITY                     ; gaussian_function                     ; gaussian_function_sim ; --                ; --                   ;
++--------------------------------------+---------------------------------------+-----------------------+-------------------+----------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 4631 MB             ; 00:00:02                           ;
+; Total                ; 00:00:02     ; --                      ; --                  ; 00:00:02                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; SKY-20180612PZU  ; Windows 7 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off gaussian_function_sim -c gaussian_function_sim
+
+
+

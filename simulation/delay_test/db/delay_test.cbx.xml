@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="delay_test">
+		<CBX_INST_ENTRY INSTANCE_NAME="|delay|altshift_taps:delay_1x_rtl_0" CBX_FILE_NAME="shift_taps_rfm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|delay|line_buffer_test:linebuffer0|altshift_taps:ALTSHIFT_TAPS_component" CBX_FILE_NAME="shift_taps_4101.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

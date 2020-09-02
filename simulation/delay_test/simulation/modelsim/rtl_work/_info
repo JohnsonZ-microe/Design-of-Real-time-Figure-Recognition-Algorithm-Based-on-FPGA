@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\360MoveData\Users\Administrator\Desktop\TRDB-D5M_v.1.2.4_SystemCD\Demonstration\DE2_CAMERA\simulation\delay_test\simulation\modelsim
+vdelay
+IDie7QEDnSHb^GfQJjl7b40
+V3ACR1<Y`UGKl44OmWXTc33
+Z1 dD:\360MoveData\Users\Administrator\Desktop\TRDB-D5M_v.1.2.4_SystemCD\Demonstration\DE2_CAMERA\simulation\delay_test\simulation\modelsim
+w1583403811
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/delay.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/delay.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 9ZAf[E<7b[7eX1@2`6XIB0
+!s85 0
+!s108 1583403961.085000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/delay.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/delay.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA -O0
+vdelay_tb
+!i10b 1
+!s100 9danm1m<3;F4?];^X:F@71
+I0>QMAJUZl^8Wj>K]<NnzF0
+V0;:6XMciTdzig65A[>mJo1
+R1
+w1583403932
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/delay_tb.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/delay_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1583403961.566000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/delay_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/delay_tb.v|
+!s101 -O0
+R3
+Z4 !s92 -vlog01compat -work work +incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test -O0
+vline_buffer_test
+I4J19bCJnWcd:AJTof0F^E3
+V5_dPeb9eF?][`EZaf]3X^0
+R1
+w1583395636
+8D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/line_buffer_test.v
+FD:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/line_buffer_test.v
+L0 39
+R2
+r1
+31
+R3
+!i10b 1
+!s100 <A:cK04_akFoPbPjocI8M2
+!s85 0
+!s108 1583403961.326000
+!s107 D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/line_buffer_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test|D:/360MoveData/Users/Administrator/Desktop/TRDB-D5M_v.1.2.4_SystemCD/Demonstration/DE2_CAMERA/simulation/delay_test/line_buffer_test.v|
+!s101 -O0
+R4
